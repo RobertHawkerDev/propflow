@@ -1,0 +1,33 @@
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+
+# Next.js build output
+.next
+out
+build
+
+# Environment variables
+.env*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Public assets (images, fonts, etc.)
+public
+
+# Lockfiles (usually handled by the package manager)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+bun.lockb
+
+# Configuration files that don't need formatting
+.eslintrc.json
+.eslintrc.js
+.eslintrc.mjs
+.prettierrc
